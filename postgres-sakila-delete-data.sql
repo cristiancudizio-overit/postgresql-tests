@@ -1,4 +1,4 @@
--- Delete data
+-- Delete data --change n1
 ALTER TABLE store DROP CONSTRAINT store_manager_staff_id_fkey;
 ALTER TABLE staff DROP CONSTRAINT staff_address_id_fkey;
 ALTER TABLE staff DROP CONSTRAINT staff_store_id_fkey;
